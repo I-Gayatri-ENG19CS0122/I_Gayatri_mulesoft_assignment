@@ -1,0 +1,10 @@
+Connect to SQL database
+jdbc:mysql://hostname:portnumber/databasename
+Create a database
+create database database_name;
+Create a new table 
+create table Movies(movie_name char(50), movie_rating float(5), movie_price int(1000000));
+Insert values into table
+insert into Movies('Movie1', 4.0, 500);
+Select data 
+select movie_name from Movies;
